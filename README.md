@@ -1,0 +1,1 @@
+In this project, I will attempt to emulate the Google homepage by myself using mainly HTML and CSS skills I learnt from freecodecamp as well as previous projects in CS50x.
