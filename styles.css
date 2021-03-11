@@ -1,3 +1,6 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
 body {
     display: flex;
     flex-direction: column;
@@ -6,13 +9,12 @@ body {
     font-family: sans-serif;
 }
 .center {
-    width: 100%;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    height: 70vh;
-    margin-bottom: 30vh;
+    /* height: 70vh;
+    margin-bottom: 30vh; */
 }
 #logo {
     width: auto;
@@ -68,17 +70,50 @@ button:hover {
 a {
     text-decoration: none;
     color: #474747;
-    margin: 0px 9px;
 }
 a:hover {
     text-decoration: underline;
 }
 .header {
-    width: 100%;
-    padding-top: 10px;
-    font-size: 13px;
+    display: flex;
+    justify-content: flex-end;
 }
-.flexbar1 {
+.topright {
+    font-size: 13px;
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 15px;
+    padding-right: 6px;
+    width: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.images {
+    margin-right: 20px;
+}
+#dotsmenu {
+    width: 15px;
+    height: 15px;
+    padding-right: 7px;
+}
+.ninedots:hover {
+    cursor: pointer;
+}
+/* profile image made circular */
+#circular {
+    display: inline-block;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+#profilepic {
+    width: auto;
+    height: 100%;
+    margin-left: -10px;
+}
+/* .flexbar1 {
     position: fixed;
     display: flex;
     flex-flow: row wrap;
@@ -132,4 +167,4 @@ a:hover {
 }
 .flexbox4 {
     align-self: flex-end;
-}
+} */
