@@ -1,3 +1,10 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+.top {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
 .header {
     display: flex;
     flex-flow: row wrap;
@@ -57,4 +64,60 @@
 ::placeholder {
     color: black;
     opacity: 1;
+}
+.search-container:hover {
+    box-shadow: 0px 0px 3px 1px #d5d5d5;
+}
+.tabs {
+    display: flex;
+    margin-left: 145px;
+    margin-top: 25px;
+    font-size: 14px;
+    width: 750px;
+}
+.maintabs, .sidetabs {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.maintabs {
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.sidetabs {
+    display: flex;
+    justify-content: space-evenly;
+    align-self: flex-end;
+    margin-left: 50px;
+    width: 150px;
+
+}
+li {
+    list-style-type: none;
+}
+.summary {
+    margin-left: 190px;
+    margin-top: 15px;
+    font-size: 14px;
+}
+.results {
+    margin-left: 190px;
+    margin-top: 25px;
+    width: 620px;
+}
+.result {
+    margin-bottom: 30px;
+}
+.website {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.description {
+    font-size: 13px;
 }
