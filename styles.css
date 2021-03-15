@@ -21,6 +21,9 @@ body {
     width: auto;
     margin-bottom: 10px;
 }
+#logo:hover {
+    cursor: pointer;
+}
 #mic {
     padding-right: 5px;
     width: 14px;
